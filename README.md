@@ -72,6 +72,9 @@ Developed by: Register Number*/
       
 	After this you can see the window like below 
 
+![image](https://github.com/user-attachments/assets/5d6bbb10-6786-4a34-94bc-38bc764ac6e9)
+
+
 ### Fig 3:Invoke the Cadence Environment
 
 	To Launch Simulation tool 
@@ -84,11 +87,19 @@ or
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+![image](https://github.com/user-attachments/assets/b930bd89-91ff-4020-9691-7af7416f7f08)
+
+![image](https://github.com/user-attachments/assets/03e72f02-ea68-4595-a170-1af8f6543fec)
+
+
 ### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+
+![image](https://github.com/user-attachments/assets/27b2aa34-3172-419f-a9b5-e5fcc8bfc20f)
+
 
 ### Fig 5:cds.lib file Creation
 
@@ -100,7 +111,7 @@ or
 
 •	A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
+![image](https://github.com/user-attachments/assets/ce4fa6b3-3ed7-4acb-9885-3bd89730e60f)
 
 ### Fig 6: Selection of Don’t include any libraries
 
@@ -139,6 +150,9 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
+![NCLaunch _ _home_student_4I5-1_212222060169_PadhmaPriya 03-10-2024 15_44_46](https://github.com/user-attachments/assets/1116c30b-1097-447c-8c8d-819d6c8dd16f)
+
+
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 	Inputs: Top level design / test bench Verilog codes 
 
@@ -168,10 +182,17 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 ### Fig 10: Design Browser window for simulation
 
+![image](https://github.com/user-attachments/assets/04d10963-4817-4071-9f5e-a2119e539262)
+
+
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+
+![image](https://github.com/user-attachments/assets/3ce0be0c-ff24-4f8b-99f3-cb6973835aef)
+
 
 ### Fig 12: Simulation Waveform Window
 
+![image](https://github.com/user-attachments/assets/1cc72865-f565-4db3-bf34-1ae4e1826af8)
 
 
 
